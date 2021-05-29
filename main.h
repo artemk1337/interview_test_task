@@ -9,12 +9,15 @@
 
 using namespace std;
 
+typedef long long INT;
+typedef unsigned long long ULL;
+
 typedef struct {
-    int max_rect;
-    int x;
-    int y;
-    int x_shift;
-    int y_shift;
+    ULL max_rect;
+    ULL x;
+    ULL y;
+    ULL x_shift;
+    ULL y_shift;
 } RECT_STRUCT;
 
 #endif //INTERVIEW_TEST_TASK_MAIN_H
