@@ -102,7 +102,7 @@ int main(int argc, char **argv) {
     if (argc != 1)
         cerr << "Argc != 0" << endl;
 
-    ifstream filemap("../test.txt");  // open file
+    ifstream filemap("../map.txt");  // open file
 
     // read file
     vector<vector<int>> array;
