@@ -2,9 +2,9 @@ import numpy as np
 from tqdm import tqdm
 
 
-shape = (1000, 1000)
+shape = (10000, 10000)
 arr = np.random.randint(2, size=shape)
-print(arr)
+print(arr.shape)
 
 with open("test.txt", "w") as f:
     for i in tqdm(range(arr.shape[0])):
